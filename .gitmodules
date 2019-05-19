@@ -1,6 +1,6 @@
 [submodule "frontend"]
 	path = frontend
-	url = git@github.com:fossasia/open-event-frontend.git
+	url = https://github.com/fossasia/open-event-frontend.git
 [submodule "server"]
 	path = server
-	url = git@github.com:yitzikc/open-event-server.git
+        url = https://github.com/yitzikc/open-event-server.git
