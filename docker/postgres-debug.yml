@@ -1,0 +1,12 @@
+# Expose PostgreSQL's port, to allow connecting with tools
+# Avoid in production, use this for debug only
+
+version: '3.5'
+
+services:
+  postgres:
+    ports:
+        - 5432:5432
+
+# TODO: Also define here a container running pgadmin4, using the main app's default user and password.
+# See: https://hub.docker.com/r/dpage/pgadmin4/
