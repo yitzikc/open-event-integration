@@ -4,3 +4,6 @@
 [submodule "server"]
 	path = server
         url = https://github.com/yitzikc/open-event-server.git
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/yitzikc/nginx-certbot.git
